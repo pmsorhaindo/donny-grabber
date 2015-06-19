@@ -1,0 +1,13 @@
+*.orig
+*.log
+.DS_Store
+.directory
+.settings/
+node_modules/
+.*.swp
+*.sublime-project
+*.sublime-workspace
+.vimrc
+.lvimrc
+.bower-cache/
+.npm-cache/
