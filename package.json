@@ -1,0 +1,29 @@
+{
+  "name": "donnygrabber",
+  "version": "0.0.1",
+  "description": "a requirejs plugin to pull donny-blocks from the donny-api",
+  "main": "donnyGrabber.js",
+  "dependencies": {
+    "whatwg-fetch": "^0.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmsorhaindo/donnyGrabber.git"
+  },
+  "keywords": [
+    "requirejs",
+    "donny",
+    "amd",
+    "plugin"
+  ],
+  "author": "mikey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pmsorhaindo/donnyGrabber/issues"
+  },
+  "homepage": "https://github.com/pmsorhaindo/donnyGrabber#readme"
+}
