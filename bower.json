@@ -1,0 +1,32 @@
+{
+  "name": "donnyGrabber",
+  "main": "main.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/pmsorhaindo/donnyGrabber",
+  "description": "a require plugin to get your donny on",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "donny",
+    "api",
+    "requirejs",
+    "plugin"
+  ],
+  "authors": [
+    "mikey"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.18",
+    "jquery": "~2.1.4"
+  }
+}

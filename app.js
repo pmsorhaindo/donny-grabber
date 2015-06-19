@@ -1,0 +1,12 @@
+require([
+	'jquery',
+	'donny!components/header',
+	'donny!components/button'
+],
+function(
+	$,
+	header,
+	button
+){
+	$('body').append(header).append(button)
+})

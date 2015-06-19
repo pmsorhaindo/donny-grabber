@@ -4,11 +4,18 @@
   "description": "a requirejs plugin to pull donny-blocks from the donny-api",
   "main": "donnyGrabber.js",
   "dependencies": {
-    "whatwg-fetch": "^0.9.0"
+    "fetch-ponyfill": "^0.9.0",
+    "requirejs": "^2.1.18"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-web-server": "^1.2.3"
+  },
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "browserify -e donnyGrabber.js -o donnyGrabber.build.js -s donnyGrabber"
   },
   "repository": {
     "type": "git",
