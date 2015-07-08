@@ -16,13 +16,14 @@ var loadComponent = function(resourceName, require, callback, config){
 		.then(function(response) {
 			return response.text();
 		})
-		.then(function(text){
-			callback(text);
+		.then(function(componentObj){
+			componentObj = JSON.parse(componentObj);
+			callback(componentObj.html);
 		})
 		.catch(function(err){
 			console.error(err + 'fetch for donny failed!');
-			callback(err.text());		
+			callback(err.text());
 		});
-}
+};
 
 module.exports = {load: loadComponent};
